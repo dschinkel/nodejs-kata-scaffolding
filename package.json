@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "description": "Basic setup for NodeJS: Babel, Mocha, and Jest",
   "scripts": {
-    "test": "mocha -r @babel/register --recursive src/test -r chai/register-expect  -w"
+    "test": "mocha -r @babel/register src/test/**/*.spec.js -r chai/register-expect  -w"
   },
   "repository": {
     "type": "git",
