@@ -16,7 +16,8 @@ Note: I do plan on keeping this _fairly_ up-to-date with the the current version
 
 # Tests
 
-To run from command-line: yarn mocha-test
+To run from command-line:
+- `yarn` - install dependencies
 - `yarn test-mocha`
 
     ![example of running tests with mocha](https://github.com/dschinkel/nodejs-kata-scaffolding/raw/master/images/console-run-tests.png)
@@ -26,7 +27,7 @@ To run from command-line: yarn mocha-test
 ### IntelliJ GUI Test runner Config
 
 #### mocha
-For IntelliJ or WebStorm, if running the test GUI runner, set "Mocha Options" to the following: `-r @babel/register -r src/test/test.config.js --recursive src/test -w`
+For IntelliJ or WebStorm, if running the test GUI runner, set "Mocha Options" to the following: `-r @babel/register -r chai/register-expect src/test/**/*.spec.js -w`
 
 ![example of running tests with mocha](https://github.com/dschinkel/nodejs-kata-scaffolding/raw/master/images/intellij-mocha-test-configuration.png)
 
