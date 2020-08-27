@@ -1,13 +1,9 @@
 
 describe('Some Feature', () => {
 
-  describe('Positive Scenarios', () => {
+  describe('Scenario', () => {
     it('can run a test', () => {
       expect(true).to.equal(true);
     });
   });
-
-  describe('Negative Scenarios', () => {
-  });
-
 });

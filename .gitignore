@@ -1,9 +1,5 @@
 .DS_STORE
 node_modules
-*.log*
 *.idea
 *.iml
 .vscode
-*.tar
-package-lock.json
-yarn.lock
